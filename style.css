@@ -5,11 +5,17 @@ body {
 
 .first-sec {
     display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 
 .second-sec {
     display: flex;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -17,20 +23,24 @@ h1 {
     margin: 10px 5px 10px 5px;
 }
 
+.head {
+    text-align: center;
+}
+
 .span {
     color: orange;
 }
 
 .first-div {
-    font-display: 100px;
-    margin-top: 70px;
+
+    margin-top: 80px;
     width: 50%;
     margin-left: 60px;
 }
 
 .first-div img {
     margin-left: 10px;
-    width: 100%;
+    width: 70%;
 }
 
 .anchor {
@@ -41,4 +51,69 @@ h1 {
     border-radius: 20px;
     color: white;
     margin-top: 50px;
+}
+
+.father-div {
+    display: flex;
+    width: 90%;
+}
+
+.food {
+    box-shadow: 2px 5px 3px 5px grey;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 10px 20px;
+    border-radius: 7%;
+    text-align: left;
+}
+
+.meal {
+    box-shadow: 2px 5px 3px 5px gray;
+    margin-left: 10px;
+    margin-right: 10%;
+    border-radius: 7%;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.food img {
+    margin-left: 10px;
+    width: 475px;
+    height: 300px;
+}
+
+.meal img {
+    margin-left: 10px;
+    width: 475px;
+    height: 300px;
+}
+
+.my-rep {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.third-sec {
+    box-shadow: 2px 5px 3px 5px gray;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.last-div {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: black;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
 }
