@@ -1,0 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+.first-sec {
+    display: flex;
+    background-image: url(images/shapes/7.png);
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 5px 10px 5px;
+}
+
+.span {
+    color: orange;
+}
+
+.first-div {
+    margin-top: 70px;
+    width: 50%;
+    margin-left: 60px;
+}
+
+.first-div img {
+    margin-left: 10px;
+    width: 80%;
+}
+
+.anchor {
+
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 50px;
+}
