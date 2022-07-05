@@ -5,7 +5,11 @@ body {
 
 .first-sec {
     display: flex;
-    background-image: url(images/shapes/7.png);
+
+}
+
+.second-sec {
+    display: flex;
 }
 
 h1 {
@@ -18,6 +22,7 @@ h1 {
 }
 
 .first-div {
+    font-display: 100px;
     margin-top: 70px;
     width: 50%;
     margin-left: 60px;
@@ -25,7 +30,7 @@ h1 {
 
 .first-div img {
     margin-left: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .anchor {
